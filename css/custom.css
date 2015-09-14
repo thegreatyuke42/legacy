@@ -1,0 +1,87 @@
+/*
+
+== TABLE OF CONTENTS ==
+01. NAV FIXES
+02. COLOR FIXES
+03. OWL CAROUSEL STYLES
+04. NAVIGATION STYLES
+05. HERO SECTION STYLES
+06. INTRO SECTION STYLES
+07. FEATURES SECTION STYLES
+08. PRICING TABLES STYLES
+09. PROJECTS STYLES
+10. SWAG STYLES
+11. PORTFOLIO SECTION STYLES
+12. SUBSCRIBE SECTION STYLES
+13. ETA SECTION STYLES
+14. TEAM SECTION STYLES
+15. FOOTER SECTION STYLES
+16. WAYPOINT STYLES
+17. MEDIA QUERIES
+
+*/
+
+
+/*01. NAV FIXES*/
+nav ul{
+  padding: 15px 15px 15px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+
+.navbar-collapse{
+  border-top: none;
+}
+
+.navbar-default{
+  background-color: #1C6BA0;
+  border-color: #1C6BA0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+.navbar-default .navbar-brand{
+  color: #fff;
+}
+
+nav ul li{
+  border-bottom: none;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand{
+    padding-top: 7px;
+  }
+}
+
+/*02. COLOR FIXES*/
+
+.intro{
+  background: #D5F0FD;
+}
+
+.dark-bg{
+  background: #D5F0FD;
+}
+
+footer{
+  background: #1C6BA0;
+}
+
+/*03. IMAGE FIXES*/
+
+.hero{
+  padding-top: 100px;
+  background: url('../img/hero-bg.jpg') no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}

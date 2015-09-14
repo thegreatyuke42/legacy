@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<title>MIA - Documentation</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/prettify.css">
+</head>
+
+<body class="midnight">
+	<header>
+		<div class="container">
+			<h2 class="docs-header">MIA One-Page HTML Template - Documentation</h2>
+		</div>
+	</header>
+
+	<section>
+		<div class="container">
+			<ul class="docs-nav" id="menu-left">
+				<li><strong>Getting Started</strong></li>
+				<li><a href="#welcome" class=" ">Welcome</a></li>
+				<li><a href="#features" class=" ">Features</a></li>
+				<li><a href="#license" class=" ">License</a></li>
+
+				<li class="separator"></li>
+
+				<li><strong>Customize MIA</strong></li>
+				<li><a href="#edit_texts" class=" ">Editing Texts</a></li>
+				<li><a href="#change_colors" class=" ">Change Colors</a></li>
+				<li><a href="#change_bg" class=" ">Change Backgrounds</a></li>
+			</ul>
+		
+			<div class="docs-content">
+				<h2>Getting Started</h2>
+
+<!-- SECTION ################################################################################################## -->
+
+				<h3 id="welcome">Welcome</h3>
+				<p><strong>MIA</strong> is a premium one-page HTML5/CSS3 website template, based on Twitter Bootstrap 3.2.0 framework.</p>
+
+				<p><strong>MIA</strong> is designed with agencies and small teams in mind and can help them to launch a simple, modern and professional website in no time!</p>
+
+	            
+<!-- SECTION ################################################################################################## -->
+				
+				<h3 id="features">Features</h3>
+				<ul>
+					<li>Clean, Responsive & Minimal Design</li>
+					<li>Simple slide menu with click to scroll functionality</li>
+					<li>Beautiful animations and effects during scrolling down</li>
+					<li>Google Fonts</li>
+					<li>Cross Browser Compatible</li>
+					<li>Owl Carousel integration</li>
+					<li>Custom scrollbar</li>
+					<li>Pricing Tables</li>
+					<li>Easy separation and re-arrangement of each content section</li>
+					<li>Full documentation</li>
+					<li>Based on Bootstrap 3.2.0</li>
+					<li>jQuery Powered</li>
+				</ul>
+
+<!-- SECTION ################################################################################################## -->
+
+				<h3 id="license">License</h3>
+				<p>MIA comes under <a href="https://creativemarket.com/licenses/simple">SimpleLicense</a></p>
+				<p>The <a href="https://creativemarket.com/licenses/simple">SimpleLicense</a> gives you the right to use any item purchased on <a href="https://creativemarket.com?u=chiotis">Creative Market</a> in a personal or commercial project for yourself or a client, but the item cannot be resold or redistributed on its own, or used in a product offered for sale where the item contributes to the core value of the product being sold.</p>
+
+<!-- SECTION ################################################################################################## -->
+				
+				<h3 id="edit_texts">Editing Texts</h3>
+				<p>Each section of the html is given a unique ID in order to have the scrolling to feature active.</p>
+				<p>When you edit, add or delete a section, you must edit two different areas of the html file</p>
+				
+				<h4>1. Sidebar Slide Menu</h4>
+
+<pre class="prettyprint">
+&lt;nav class=&quot;pull&quot;&gt;
+	&lt;ul class=&quot;top-nav&quot;&gt;
+		...
+		&lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction &lt;span class=&quot;indicator&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+		... 
+	&lt;/ul&gt;
+&lt;/nav&gt;
+</pre>
+
+				<hr/>
+				<h4>2. Main documentation content</h4>
+<pre class="prettyprint">
+&lt;section class=&quot;intro text-center section-padding&quot; id=&quot;intro&quot;&gt; 
+	&lt;div class=&quot;container&quot;&gt; 
+		&lt;div class=&quot;row&quot;&gt; 
+			&lt;div class=&quot;col-md-8 col-md-offset-2 wp1&quot;&gt; 
+				&lt;h1 class=&quot;arrow&quot;&gt;A CLEAN WEBSITE TEMPLATE, THAT LOOKS DAMN GOOD!&lt;/h1&gt; 
+				&lt;p&gt;&lt;strong&gt;MIA&lt;/strong&gt; is a premium one-page HTML5/CSS3 website template, based on Twitter Bootstrap 3.2.0 framework. MIA is designed with agencies and small teams in mind and can help them to launch a simple, modern and professional website in no time! It is really easy to use and configure and includes &lt;a href=&quot;#&quot;&gt;full documentation&lt;/a&gt;.&lt;/p&gt; 
+			&lt;/div&gt; 
+		&lt;/div&gt; 
+	&lt;/div&gt; 
+&lt;/section&gt;
+</pre>
+
+				<p>Each section is clearly separated from the others with comments.</p>
+
+<!-- SECTION ################################################################################################## -->
+
+				<h3 id="change_colors">Change Colors</h3>
+				<p>UniDocs has a separate <strong>colors.css</strong> file where you can find and change the colors of the templete easily.</p>
+<pre class="prettyprint">
+h1 {
+  color: #353535;
+}
+
+a {
+  color: #353535;
+}
+
+a:hover, a:focus {
+  color: #1abc9c;
+}
+
+p {
+  color: #8c9398;
+}
+
+h2 {
+  color: #353535;
+}
+
+h2::after {
+  border-bottom: 1px dotted #8c9398;
+}
+</pre>
+				<p>the only thing you have to do, besides editing the <strong>colors.css</strong> file, is to include it in the index.html head right below <strong>styles.min.css</strong></p>
+<pre class="prettyprint">
+...
+&lt;link href=&quot;css/styles.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;link href=&quot;css/colors.css&quot; rel=&quot;stylesheet&quot;&gt;
+...
+</pre>
+
+<!-- SECTION ################################################################################################## -->
+
+				<h3 id="change_bg">Change Backgrounds</h3>
+				<p>Note: All images used are for demo purposes only and can be found <a href="https://www.flickr.com/photos/125167502@N02/sets/" target="_blank">here</a></p>
+				<p>The easy way is to just get your new photos and overwrite the current ones. Otherwise you can edit the <strong>styles.css</strong> and replace the section you need.</p>
+
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2014 Unicorg.com</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery.min.js"></script> 
+
+	<script type="text/javascript" src="js/prettify/prettify.js"></script> 
+	<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+	<script src="js/layout.js"></script>
+	<script src="js/jquery.localscroll-1.2.7.js" type="text/javascript"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+</body>
+</html>

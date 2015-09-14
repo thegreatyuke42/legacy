@@ -1,0 +1,175 @@
+body {
+  color: #333;
+  background: #f5f5f5;
+}
+a {
+  color: #26abe2;
+}
+a:active {
+  color: #47b5e2;
+}
+header {
+  background: #7f8c8d;
+  color: #fff;
+}
+section.vibrant {
+  background: #222;
+  color: #fff;
+}
+
+/* THEMES ============================================================= */
+/* if you don't know what you are doing, I advise you not to edit below this line */
+
+/* 
+	THEMES: MIDNIGHT ============================================================= 
+*/
+body.midnight {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+body.midnight a {
+  color: #3498db;
+}
+body.midnight a:active {
+  color: #47b5e2;
+}
+body.midnight header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.midnight section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.midnight section.vibrant a {
+  color: #fff;
+}
+body.midnight h3 {
+  border-color: #2c3e50;
+}
+
+
+/* 
+	THEMES: RED ============================================================= 
+*/
+body.red {
+  color: #333;
+  background: #f5f5f5;
+}
+body.red a {
+  color: #3498db;
+}
+body.red a:active {
+  color: #47b5e2;
+}
+body.red header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.red section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.red section.vibrant a {
+  color: #fff;
+}
+
+/* 
+	THEMES: GREEN ============================================================= 
+*/
+body.green {
+  color: #333;
+  background: #f5f5f5;
+}
+body.green a {
+  color: #3498db;
+}
+body.green a:active {
+  color: #47b5e2;
+}
+body.green header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.green section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.green section.vibrant a {
+  color: #fff;
+}
+
+/* 
+	THEMES: BLUE ============================================================= 
+*/
+body.blue {
+  color: #333;
+  background: #f5f5f5;
+}
+body.blue a {
+  color: #3498db;
+}
+body.blue a:active {
+  color: #47b5e2;
+}
+body.blue header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.blue section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.blue section.vibrant a {
+  color: #fff;
+}
+
+/* 
+	THEMES: PURPLE ============================================================= 
+*/
+body.purple {
+  color: #333;
+  background: #f5f5f5;
+}
+body.purple a {
+  color: #3498db;
+}
+body.purple a:active {
+  color: #47b5e2;
+}
+body.purple header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.purple section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.purple section.vibrant a {
+  color: #fff;
+}
+
+/* 
+	THEMES: SUBTLE ============================================================= 
+*/
+body.subtle {
+  color: #333;
+  background: #f5f5f5;
+}
+body.subtle a {
+  color: #3498db;
+}
+body.subtle a:active {
+  color: #47b5e2;
+}
+body.subtle header {
+  background: #2c3e50;
+  color: #ecf0f1;
+}
+body.subtle section.vibrant {
+  background: #34495e;
+  color: #95a5a6;
+}
+body.subtle section.vibrant a {
+  color: #fff;
+}
